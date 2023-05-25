@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# get the image ID of the container named b2b_scorer_engine #--no-cache 
+# get the image ID of the container coding_learner_container #--no-cache 
 
-IMAGE_ID=$(docker images --filter=reference=b2b_scorer_engine --format "{{.ID}}")
+IMAGE_ID=$(docker images --filter=reference=coding_learner --format "{{.ID}}")
 
-docker build -t b2b_scorer_engine . 
+docker build -t coding_learner . 
 
 docker rmi $IMAGE_ID
