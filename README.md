@@ -1,2 +1,2 @@
 # coding_learner
-Repository for learning coding examples. Using dockerized Jupyter notebook to run examples
+Repository for teaching coding examples. Using dockerized Jupyter notebook to run examples
